@@ -54,4 +54,8 @@ const createTaskBtn = document.createElement("button");
 createTaskBtn.textContent = "Add task";
 createTaskBtn.id = "createTaskBtn";
 app.appendChild(createTaskBtn);
+// Create and append a div for task list
+const taskList = document.createElement("div");
+taskList.id = "taskList";
+app.appendChild(taskList);
 
