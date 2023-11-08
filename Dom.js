@@ -43,3 +43,15 @@ const addProjectBtn = document.createElement("button");
 addProjectBtn.textContent = "Add Project";
 addProjectBtn.id = "addProjectBtn";
 app.appendChild(addProjectBtn);
+
+// Create and append a header for tasks
+const TasksHeader = document.createElement("h3");
+TasksHeader.textContent = "Tasks";
+app.appendChild(TasksHeader);
+
+//create task button
+const createTaskBtn = document.createElement("button");
+createTaskBtn.textContent = "Add task";
+createTaskBtn.id = "createTaskBtn";
+app.appendChild(createTaskBtn);
+
